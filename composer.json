@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^8"
+        "php": "^8",
+        "eru123/linker-filesystem": "^1.01"
     },
     "autoload": {
         "psr-4": {

@@ -6,4 +6,6 @@ require_once(__DIR__."/vendor/autoload.php");
 use Linker\Installer\Installer;
 
 $installer = new Installer();
-$installer->run();
+
+if(!$installer->init(__DIR__,$argv ?? [],"v1.0"))
+    Installer::echo("Linker installer failed to execute command! Try again!\n",33);

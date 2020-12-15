@@ -4,8 +4,46 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75f4fa683dcd0d9f82c2f8f1b6ec07ca",
-    "packages": [],
+    "content-hash": "6ee0bd76251be5e47b6974c326e83ef4",
+    "packages": [
+        {
+            "name": "eru123/linker-filesystem",
+            "version": "1.01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eru123/linker-filesystem.git",
+                "reference": "8fac9029515e1c9c5b9e4a29e16886f34d85131b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eru123/linker-filesystem/zipball/8fac9029515e1c9c5b9e4a29e16886f34d85131b",
+                "reference": "8fac9029515e1c9c5b9e4a29e16886f34d85131b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Linker\\FileSystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "eru123",
+                    "email": "yeoligoakino@gmail.com"
+                }
+            ],
+            "description": "PHP advance file system library",
+            "support": {
+                "issues": "https://github.com/eru123/linker-filesystem/issues",
+                "source": "https://github.com/eru123/linker-filesystem/tree/1.01"
+            },
+            "time": "2020-12-15T08:33:49+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
@@ -13,7 +51,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "8"
+        "php": "^8"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
