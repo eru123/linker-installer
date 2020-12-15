@@ -2,14 +2,12 @@
 <?php
 $dir = __DIR__;
 
-var_dump(__DIR__);
-
-// require_once(__DIR__."/vendor/autoload.php"); 
+require_once(__DIR__."/../../autoload.php"); 
 
 
-// use Linker\Installer\Installer;
+use Linker\Installer\Installer;
 
-// $installer = new Installer();
+$installer = new Installer();
 
-// if(!$installer->init($dir,$argv ?? [],"v1.0"))
-//     Installer::echo("Linker installer failed to execute command! Try again!\n",33);
+if(!$installer->init($dir,$argv ?? [],"v1.0"))
+    Installer::echo("Linker installer failed to execute command! Try again!\n",33);
