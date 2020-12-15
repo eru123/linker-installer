@@ -42,7 +42,6 @@ class Installer {
                     copy($tmp,str_replace($template,$project,$tmp));
                 }
             }
-            sleep(5);
             exec("cd $project && composer install --verbose");
         } catch(\Exception $e){
             self::echo((string)$e->getMessage() ?? "Failed to generate all files",31);
