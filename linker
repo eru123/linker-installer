@@ -2,18 +2,14 @@
 <?php
 $dir = __DIR__;
 
-if(is_file(__DIR__."/../autoload.php")){
-    require_once(__DIR__."/../autoload.php");
-    $dir = __DIR__."/../vendor/eru123/linker-installer";
-} elseif (is_file(__DIR__."/vendor/autoload.php")) {
-    require_once(__DIR__."/vendor/autoload.php"); 
-} else {
-    echo "Failed to load resources";
-}
+var_dump(__DIR__);
 
-use Linker\Installer\Installer;
+// require_once(__DIR__."/vendor/autoload.php"); 
 
-$installer = new Installer();
 
-if(!$installer->init($dir,$argv ?? [],"v1.0"))
-    Installer::echo("Linker installer failed to execute command! Try again!\n",33);
+// use Linker\Installer\Installer;
+
+// $installer = new Installer();
+
+// if(!$installer->init($dir,$argv ?? [],"v1.0"))
+//     Installer::echo("Linker installer failed to execute command! Try again!\n",33);
