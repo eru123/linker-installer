@@ -1,8 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-require_once(__DIR__."/vendor/autoload.php");
-
 use Linker\Installer\Installer;
 
 $installer = new Installer();
