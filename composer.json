@@ -1,0 +1,22 @@
+{
+    "name": "eru123/linker-installer",
+    "description": "Linker Framework installer",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "eru123",
+            "email": "yeoligoakino@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linker\\Installer\\": "src/"
+        }
+    },
+    "bin":["linker"]
+}
