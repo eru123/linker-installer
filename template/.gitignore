@@ -1,2 +1,4 @@
 /vendor/
+composer.phar
 *.log
+composer.lock

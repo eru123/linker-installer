@@ -1,6 +1,17 @@
 {
+    "name": "linker/project",
+    "description": "A Linker Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "author",
+            "email": "your@email.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
-        "eru123/linker": "^1.011",
-        "php": "^8"
+        "php": "^8.0",
+        "eru123/linker": "^1.1"
     }
 }
