@@ -115,10 +115,7 @@ class Installer {
                         if(isset($argv[$i + 1])){
                             $next_arg = rtrim($next_arg,"/")."/";
                             $dir = rtrim($dir,"/")."/template/";
-                            if(is_dir($next_arg) && count(FS::scandir($next_arg))>0){
-                                self::echo("Project folder contains files, Make sure you working on an empty directory\n",31);
-                                return TRUE;
-                            } elseif(!is_dir($next_arg) && !FS::mkdir($next_arg)){
+                            if(!is_dir($next_arg) && !FS::mkdir($next_arg)){
                                 self::echo("Failed to create project! Make sure that the directory is writable.\n",31);
                                 return TRUE;
                             }
