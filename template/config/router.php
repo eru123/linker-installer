@@ -25,13 +25,14 @@ return [
     // if the file or page is not specified but the directory is defined
     // the index file is searched in different extensions , if not found 
     // in the directory 
+    // indexes separated by single spaces
     // Type: String
-    "index" => "index README",
+    "index" => "index",
 
     // Used extension for file search
     // This extensions is use from left to right
     // Type: String 
-    "exts" => "php html md",
+    "exts" => "php html",
 
     // Directory level
     // Root document directory is always 0

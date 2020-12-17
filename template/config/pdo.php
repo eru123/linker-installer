@@ -15,7 +15,6 @@ return [
 
     // pre made models
     // 'model values' must be an existing table name
-    // 'use' and 'model' must be set to TRUE 
     // Type: Array
     "models" => [],
 
