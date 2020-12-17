@@ -9,5 +9,5 @@ use Linker\Installer\Installer;
 
 $installer = new Installer();
 
-if(!$installer->init($dir,$argv ?? [],"v1.40"))
+if(!$installer->init($dir,$argv ?? [],"v1.41"))
     Installer::echo("Linker installer failed to execute command! Try again!\n",33);
